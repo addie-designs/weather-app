@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./weather.css">
+  <title>Weather App</title>
+</head>
+<body>
+  <section>
+ <div class="weatherContainer">
+    <h2>Around Your Country</h2>
+
+    <form id="weatherForm" class="weatherForm">
+      <input type="text" class="input" id="cityInput" placeholder="Enter your city"/>
+    <button id="formBtn">Get Weather</button>
+    </form>
+
+    <h2 id="cityName"></h2>
+
+    <div id="weatherInfo" class="weather-Info">
+      <h3 id="errorMsg" ></h3>
+      <h1 id="temperature"></h1>
+      <img src="" alt="" id="icon">
+      <p id="windSpeed"></p>
+      
+    </div>
+  </div>
+
+  </section>
+ 
+ 
+  <script src="./weatherApp.js"></script>
+</body>
+</html>
